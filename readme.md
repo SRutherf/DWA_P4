@@ -1,3 +1,32 @@
+# DWA_P4
+
+##Live URL
+<http://p4.srutherf.me/>
+
+##Demo
+<http://screencast.com/t/6ZE0Ijhz/>
+
+##Description
+Project 4 for DWA15 at the Harvard Extension School.  Super realistic snowboarding simulator.
+
+##Details
+Validation:  The program is able to respond to duplicate emails in register forms, incorrect logins, mismatching passwords, and unauthenticated route access.
+
+The routes are /slope, /shop, /logout, /login, /register.
+
+Create:  Upon a successful user to user interaction (which has a 30% of occuring when loading the slope page) we add a row to the users_x_interactions table.
+
+Read:  When loading the slope and shop pages the program reads the database tables to display correct data.
+
+Update:  When switching between the shop and slope pages we update the database with data input through the forms.  Users can input data directly through the url.  Though they can mess up their own data they are unable to do anything that would affect other users.
+
+Delete:  If the user hits the kill button on the slope page their data is deleted from the database.
+
+##Outside Files
+BootStrap: http://getbootstrap.com/
+Laravel Facades:  HTML and FORM (Part of Laravel's Illuminate but not included in a standard installation)
+Phaser.io Framework: http://phaser.io/
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
