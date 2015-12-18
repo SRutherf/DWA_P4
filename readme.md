@@ -26,6 +26,7 @@ Delete:  If the user hits the kill button on the slope page their data is delete
 BootStrap: http://getbootstrap.com/
 Laravel Facades:  HTML and FORM (Part of Laravel's Illuminate but not included in a standard installation)
 Phaser.io Framework: http://phaser.io/
+Main menu background taken from pickywallpapers.net
 
 ## Laravel PHP Framework
 
