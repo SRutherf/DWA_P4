@@ -17,7 +17,10 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password', 60);
-            $table->rememberToken();
+			$table->string('outfit')->default('1,1');
+			$table->string('items')->default('hat1,body1');
+			$table->integer('money');
+			$table->string('remember_token', 100);
             $table->timestamps();
         });
     }
